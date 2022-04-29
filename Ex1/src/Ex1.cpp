@@ -32,8 +32,8 @@ bool isInside(const triangle& t, const vec2& P)
 
 bool areSectionsCrossed(const line_segment& l1, const line_segment& l2)
 {
-  vec2 l1_coeffs = get_coefficients(l1);
-  vec2 l2_coeffs = get_coefficients(l2);
+  vec2 l1_coeffs = getCoefficients(l1);
+  vec2 l2_coeffs = getCoefficients(l2);
 
   vec2 common_point;
   common_point.x = (l1_coeffs.y - l2_coeffs.y) / (l2_coeffs.x - l1_coeffs.x);
@@ -75,5 +75,4 @@ bool isColliding(const triangle& t1, const triangle& t2)
           areSectionsCrossed(t1_ac, t2_bc) ||
           areSectionsCrossed(t1_ac, t2_ac);
 }
-
 

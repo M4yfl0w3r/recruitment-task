@@ -20,5 +20,5 @@ int main()
   bool res = isColliding(A, B);
 
   std::cout << "\nCzy się przecinają: " << std::boolalpha << res << '\n';
-
 }
+
