@@ -1,0 +1,13 @@
+/home/hope/Code/practise/novomatic/Ex1/build/CMakeFiles/main.dir
+/home/hope/Code/practise/novomatic/Ex1/build/CMakeFiles/test.dir
+/home/hope/Code/practise/novomatic/Ex1/build/CMakeFiles/edit_cache.dir
+/home/hope/Code/practise/novomatic/Ex1/build/CMakeFiles/rebuild_cache.dir
+/home/hope/Code/practise/novomatic/Ex1/build/build/CMakeFiles/gtest.dir
+/home/hope/Code/practise/novomatic/Ex1/build/build/CMakeFiles/gtest_main.dir
+/home/hope/Code/practise/novomatic/Ex1/build/build/CMakeFiles/test.dir
+/home/hope/Code/practise/novomatic/Ex1/build/build/CMakeFiles/edit_cache.dir
+/home/hope/Code/practise/novomatic/Ex1/build/build/CMakeFiles/rebuild_cache.dir
+/home/hope/Code/practise/novomatic/Ex1/build/test/CMakeFiles/Tests.dir
+/home/hope/Code/practise/novomatic/Ex1/build/test/CMakeFiles/test.dir
+/home/hope/Code/practise/novomatic/Ex1/build/test/CMakeFiles/edit_cache.dir
+/home/hope/Code/practise/novomatic/Ex1/build/test/CMakeFiles/rebuild_cache.dir
