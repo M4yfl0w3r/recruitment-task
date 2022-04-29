@@ -6,7 +6,7 @@ bool isBetween(const vec2& a, const vec2& b, float x, float y)
           std::min(a.y, b.y) <= y && y <= std::max(a.y, b.y));
 }
 
-vec2 get_coefficients(const line_segment& line)
+vec2 getCoefficients(const line_segment& line)
 {
   float A = (line.a.y - line.b.y) / (line.a.x - line.b.x);
   float B = (line.a.y - ((line.a.y - line.b.y) / (line.a.x - line.b.x)) * line.a.x);
