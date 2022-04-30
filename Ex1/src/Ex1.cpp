@@ -1,4 +1,4 @@
-#include "../include/Ex1.h"
+#include "Ex1.h"
 
 bool isBetween(const vec2& a, const vec2& b, float x, float y)
 {

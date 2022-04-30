@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "../include/Ex1.h"
+#include "../src/Ex1.h"
 
 TEST(TrianglesCollision, TrojkatWTrojkacie)
 {
