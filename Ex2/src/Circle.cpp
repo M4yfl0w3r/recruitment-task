@@ -1,4 +1,4 @@
-#include "../include/Circle.h"
+#include "Circle.h"
 
 Circle::Circle(float radius, sf::Vector2f pos, sf::Color color) : m_radius{radius}
 {

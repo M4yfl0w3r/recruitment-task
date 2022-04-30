@@ -1,5 +1,5 @@
-#include "include/Circle.h"
-#include "include/Rectangle.h"
+#include "Circle.h"
+#include "Rectangle.h"
 
 struct Segment
 {

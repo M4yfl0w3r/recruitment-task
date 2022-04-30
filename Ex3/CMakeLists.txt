@@ -18,7 +18,7 @@ if (NOT googletest_POPULATED)
 endif()
 
 add_executable(sol_run src/main.cpp)
-
 add_executable(sol_tst tst/Ex3_test.cpp)
+
 target_link_libraries(sol_tst gtest_main gmock_main)
 
