@@ -13,6 +13,8 @@ git clone https://github.com/M4yfl0w3r/recruitment-task.git
 
 cd recruitment-task
 
+cd Ex1
+
 mkdir build 
 
 cd build
