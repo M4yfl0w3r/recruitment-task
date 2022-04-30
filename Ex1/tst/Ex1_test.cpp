@@ -4,13 +4,14 @@
 
 TEST(TrianglesCollision, TrojkatWTrojkacie)
 {
-  triangle A;
-  triangle B;
+  triangle A = {vec2{-10, 14}, vec2{-16, 6}, vec2{-4, 6}};
+  triangle B = {vec2{-10, 10}, vec2{-12, 8}, vec2{-8, 8}};
 
-  A = {vec2{-10, 14}, vec2{-16, 6}, vec2{-4, 6}};
-  B = {vec2{-10, 10}, vec2{-12, 8}, vec2{-8, 8}};
+  triangle C = {vec2{-3, 3}, vec2{-5, 1}, vec2{2.3, -1.99}};
+  triangle D = {vec2{-3, 3}, vec2{-4, 1}, vec2{-2, 1}};
 
   EXPECT_TRUE(isColliding(A, B));
+  EXPECT_TRUE(isColliding(C, D));
 }
 
 TEST(TrianglesCollision, TrojkatyNieStykajaceSie)
