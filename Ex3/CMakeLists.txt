@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
 
-project(ex1)
+project(ex3)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "-Wall")
 
@@ -17,11 +17,8 @@ if (NOT googletest_POPULATED)
   add_subdirectory(${googletest_SOURCE_DIR} ${googletest_BUILD_DIR})
 endif()
 
-add_library(sol STATIC src/Ex1.cpp)
-
 add_executable(sol_run src/main.cpp)
-target_link_libraries(sol_run sol)
 
-add_executable(sol_tst tst/Ex1_test.cpp)
-target_link_libraries(sol_tst sol gtest_main gmock_main)
+add_executable(sol_tst tst/Ex3_test.cpp)
+target_link_libraries(sol_tst gtest_main gmock_main)
 
