@@ -1,1 +1,1 @@
-## Novomatic Recruitment Task
+## Recruitment Task
